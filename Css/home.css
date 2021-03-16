@@ -1,0 +1,24 @@
+/*navbar*/
+nav{
+  background-color: rgba(0, 0, 0, 0.329);
+}
+/*responsive*/
+@media screen and (min-width: 768px) {
+  .logo{
+    height: 5vw ;
+  }
+  .slide{
+    height: 50vw;
+    max-width: 100%;;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logo{
+    height: 10vw ;
+  }
+}
+@media screen and (max-width: 576px) {
+  .logo{
+    height: 10vw ;
+  }
+}
