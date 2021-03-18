@@ -1,24 +1,53 @@
 /*navbar*/
-nav{
-  background-color: rgba(0, 0, 0, 0.329);
+/* nav{
+  background-color: rgba(0, 0, 0, 0.795);
+} */
+.navlink:hover{
+  color: red !important;
+  transition: 0.5s !important;
+}
+.navlink{
+  font-size: 1.5 vw;
+
+}
+/* slideshow*/
+.btn-primary:hover {
+  color: #fff;
+  background-color: #919191 !important;
+  border-color: #a3a3a300 !important;
+  transition:0.6s ;
+}
+.btn-primary{
+  border-color: #a3a3a300 !important;
+  border-radius: 5vw
+
 }
 /*responsive*/
 @media screen and (min-width: 768px) {
   .logo{
-    height: 5vw ;
+    height: 60px ;
   }
   .slide{
-    height: 50vw;
+    height: 40vw;
     max-width: 100%;;
+  }
+  .head-title{
+    font-size: 4vw;
   }
 }
 @media screen and (max-width: 768px) {
   .logo{
-    height: 10vw ;
+    height: 50px ;
+  }
+  .head-title{
+    font-size: 4vw;
   }
 }
 @media screen and (max-width: 576px) {
   .logo{
-    height: 10vw ;
+    height: 50px ;
+  }
+  .head-title{
+    font-size: 4vw;
   }
 }
