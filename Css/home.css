@@ -8,19 +8,38 @@
 }
 .navlink{
   font-size: 1.5 vw;
-
+}
+.navbar{
+  background-color: rgba(85, 85, 85, 0.219);
 }
 /* slideshow*/
 .btn-primary:hover {
   color: #fff;
-  background-color: #919191 !important;
-  border-color: #a3a3a300 !important;
+  background-color: #ff3737 !important;
+  border-color: #ff1b1b00 !important;
   transition:0.6s ;
 }
 .btn-primary{
   border-color: #a3a3a300 !important;
-  border-radius: 5vw
+  border-radius: 5vw;
 
+}.head-title{
+  font-weight: bold;
+}
+.ht1{
+  font-weight: bold;
+}
+.cap-1{
+  border-radius: 5vw;
+  margin-right: 15vw;
+  padding-left: 5vw;
+}
+.ht2{
+  font-weight: bold;
+  color: #ff0000;
+}
+.cap1{
+  border-radius: 1  vw;
 }
 /*responsive*/
 @media screen and (min-width: 768px) {
@@ -33,6 +52,15 @@
   }
   .head-title{
     font-size: 4vw;
+  }
+  .ht1{
+    font-size: 4vw;
+    width: 50vw;
+    color: #ffe864 !important ;
+
+  }
+  .ct1{
+    width: 50vw;
   }
 }
 @media screen and (max-width: 768px) {
